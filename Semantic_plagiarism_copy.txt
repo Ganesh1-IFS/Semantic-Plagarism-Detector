@@ -1,0 +1,16 @@
+Project Title: Semantic Plagiarism Detection Agent
+Domain: Education
+Core Technologies: NLP, Embeddings, Semantic Search
+
+1. Project Overview
+The primary goal is to build a semantic plagiarism detection system designed for the educational sector. In contrast to legacy systems that depend heavily on exact word and phrase comparisons, this agent recognizes content overlap based on underlying meaning. This methodology prevents users from circumventing detection via paraphrasing or text restructuring.
+
+2. Minimum System Requirements
+To successfully deploy this detection agent, the system framework must incorporate the following essential components:
+Document/Text Processing: Modules to ingest, format, and standardize submitted user documents.
+Semantic Embeddings: Leveraging NLP models to transform textual data into high-dimensional vector space to capture deep context.
+Similarity Calculation: Mathematical operations to measure the distance between text vectors and assess the degree of semantic overlap.
+Paraphrase Detection: Mechanisms specifically engineered to identify rephrased sentences that preserve the original semantic intent.
+Matching Section Identification: The capability to isolate and highlight precise areas within the document that show significant semantic alignment with source texts.
+Similarity Percentage: A final scoring metric that evaluates the total percentage of unoriginal material.
+Plagiarism Report: Production of a detailed, user-friendly output document for instructors summarizing the detected matches
